@@ -2,38 +2,133 @@
   "adults": [
     {
       "id": 1,
-      "name": "Michael"
+      "name": "adult_name1",
+      "surname": "adult_surname1"
     },
     {
       "id": 2,
-      "name": "Rita"
+      "name": "adult_name2",
+      "surname": "adult_surname2"
+    },
+    {
+      "id": 3,
+      "name": "adult_name3",
+      "surname": "adult_surname3"
     }
   ],
   "classes": [
     {
       "id": 1,
-      "name": "class1"
+      "name": "class1",
+      "school": "school1"
     },
     {
       "id": 2,
-      "name": "class2"
+      "name": "class2",
+      "school": "school2"
     }
   ],
   "teachers": [
     {
       "id": 1,
       "classId": 1,
-      "adultId": 1
+      "adultId": 3
     },
     {
       "id": 2,
       "classId": 2,
-      "adultId": 1
+      "adultId": 3
     },
     {
       "id": 3,
       "classId": 1,
       "adultId": 2
     }
+  ],
+  "kids": [
+    {
+      "id": 1,
+      "name": "kid_name1",
+      "surname": "kid_surname1"
+    },
+    {
+      "id": 2,
+      "name": "kid_name2",
+      "surname": "kid_surname2"
+    }
+  ],
+  "guardians": [
+    {
+      "id": 1,
+      "adultId": 1,
+      "kidId": 1
+    },
+    {
+      "id": 2,
+      "adultId": 1,
+      "kidId": 2
+    },
+    {
+      "id": 3,
+      "adultId": 2,
+      "kidId": 1
+    },
+    {
+      "id": 4,
+      "adultId": 2,
+      "kidId": 2
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "classId": 1,
+      "kidId": 1
+    },
+    {
+      "id": 2,
+      "classId": 1,
+      "kidId": 2
+    },
+    {
+      "id": 3,
+      "classId": 2,
+      "kidId": 1
+    }
+  ],
+  "parents": [
+    {
+      "id": 1,
+      "adultId": 1,
+      "classId": 1
+    },
+    {
+      "id": 2,
+      "adultId": 2,
+      "classId": 1
+    },
+    {
+      "id": 3,
+      "adultId": 1,
+      "classId": 2
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "adultId": 1,
+      "classId": 1
+    },
+    {
+      "id": 2,
+      "adultId": 2,
+      "classId": 1
+    },
+    {
+      "id": 3,
+      "adultId": 2,
+      "classId": 2
+    }
   ]
+
 }
