@@ -1,0 +1,39 @@
+{
+  "adults": [
+    {
+      "id": 1,
+      "name": "Michael"
+    },
+    {
+      "id": 2,
+      "name": "Rita"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "class1"
+    },
+    {
+      "id": 2,
+      "name": "class2"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "classId": 1,
+      "adultId": 1
+    },
+    {
+      "id": 2,
+      "classId": 2,
+      "adultId": 1
+    },
+    {
+      "id": 3,
+      "classId": 1,
+      "adultId": 2
+    }
+  ]
+}
