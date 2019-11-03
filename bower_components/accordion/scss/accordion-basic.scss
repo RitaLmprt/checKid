@@ -1,0 +1,9 @@
+// improve interaction usability
+.accordion-header {
+  cursor: pointer;
+}
+
+// prevent fouc
+.accordion-content {
+  display: none;
+}
